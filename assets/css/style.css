@@ -1,0 +1,188 @@
+.title-nav{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-menus li{
+    font-weight: 500;
+}
+.navbar-menus li:hover a{
+    color: orange;
+}
+
+.actived{
+    color: orange;
+}
+
+.my-jumbotron{
+    margin-top: 70px;
+    background-image: url('../img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.my-jumbotron .content-jumbotron{
+    display: flex;
+    align-items: center;
+}
+.my-jumbotron .content-jumbotron .text-jumbotron{
+    width: 55%;
+}
+.my-jumbotron .content-jumbotron .img-jumbotron{
+    width: 550px;
+}
+
+.layanan .content-layanan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.layanan .content-layanan .our-layanan{
+    margin: 10px 0px;
+    text-align: center;
+}
+.layanan .content-layanan .our-layanan .card{
+    width: 20rem;
+}
+
+.partner{
+    background-color: rgb(243, 243, 243);
+    height: 500px;
+}
+.my-partner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+.my-partner .image-partner img{
+    width: 700px;
+}
+.sertifikasi{
+    background-color: #483D8B;
+    height: 200px;
+}
+.sertifikasi .my-sertifikasi{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.sertifikasi .my-sertifikasi .image-sertifikasi{
+    width: 600px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sertifikasi .my-sertifikasi .image-sertifikasi .ibh{
+    width: 150px;
+}
+.sertifikasi .my-sertifikasi .image-sertifikasi .bnsp{
+    width: 120px;
+}
+.sertifikasi .my-sertifikasi .image-sertifikasi .nlp{
+    width: 90px;
+}
+.sertifikasi .logo-sertifikasi{
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-1{
+    color: orange;
+}
+.text-2{
+    color: #483D8B;
+}
+
+.my-layanan{
+    color: #483D8B;
+}
+
+.image{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.image img{
+    width: 300px;
+    margin: 0px 10px;
+}
+
+@media (max-width: 768px){
+    .my-jumbotron{
+        height: 650px;
+    }
+    .my-jumbotron .content-jumbotron{
+        display: block;
+    }
+    .my-jumbotron .content-jumbotron .text-jumbotron{
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .my-jumbotron .content-jumbotron .text-jumbotron h3{
+        font-size: 30px;
+    }
+    .my-jumbotron .content-jumbotron .img-jumbotron{
+        margin-top: 40px;
+        width: 470px;
+    }
+    .layanan .content-layanan .our-layanan .card{
+        width: 13rem;
+    }
+    .my-partner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .my-partner .title-partner{
+        text-align: center;
+    }
+    .my-partner .title-partner .deskripsi{
+        font-size: 18px;
+    }
+    .my-partner .image-partner img{
+        width: 470px;
+    }
+    .sertifikasi{
+        background-color: #483D8B;
+        height: 300px;
+    }    
+    .sertifikasi .my-sertifikasi{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    .sertifikasi .my-sertifikasi .title-sertifikasi h2{
+        font-size: 30px;
+    }
+    .sertifikasi .my-sertifikasi .image-sertifikasi{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+}

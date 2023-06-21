@@ -1,0 +1,250 @@
+#about-jumbotron{
+    background-image: url('../img/background-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 555px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#about-jumbotron .text-about{
+    width: 45%;
+}
+#about-jumbotron .text-about h1{
+    font-weight: bold;
+}
+#about-jumbotron .image-about{
+    width: 55%;
+}
+#about-jumbotron .image-about img{
+    width: 600px;
+}
+
+
+#content-about .title-content .title-company-about{
+    color: orange;
+}
+#content-about .title-content p{
+    font-size: 18px;
+}
+
+#content-about .content{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: 70px;
+}
+#content-about .content .image-content{
+    width: 50%;
+}
+#content-about .content .describe-content{
+    width: 50%;
+}
+
+#content-about .content .describe-content p{
+    padding: 0 40px 0px 20px;
+    text-indent: 30px;
+    text-align: justify;
+}
+#content-about .content .image-content img{
+    width: 600px;
+    padding: 0px 10px;
+}
+
+.content-visimisi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.content-visimisi .visi{
+    width: 40%;
+    border: 3px solid orange;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.content-visimisi .misi{
+    width: 40%;
+    border: 3px solid orange;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+#maps{
+    background-image: url('../img/background-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+#maps .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#maps .content-maps{
+    width: 60%;
+    margin-top: 50px;
+}
+#maps .content-maps img{
+    width: 700px;
+}
+
+#form-contact{
+    background-color: #483D8B;
+}
+#form-contact .container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer-buttom{
+    background-color: #483D8B;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+footer{
+    padding: 30px 0px;
+}
+footer h3{
+    text-align: center;
+}
+footer .menus-contact{
+    text-align: left;
+    margin-left: 10px;
+}
+footer .menus-contact a{
+    text-decoration: none;
+    color: #483D8B;
+    font-size: 18px;
+}
+footer .menus-contact .telp{
+    padding: 5px 0px;
+}
+.menus-profile a, .menus-service a, .menus-follow a{
+    text-decoration: none;
+    color: #483D8B;
+}
+.menus-profile a:hover, .menus-service a:hover, .menus-follow a:hover{
+    color: orange
+}
+
+.text-3{
+    color: #6b5ad6;
+}
+
+@media (max-width: 768px){
+    #about-jumbotron{
+        display: block;
+        background-image: url('../img/background-about-android.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #about-jumbotron .text-about{
+        margin: 50px 0px;
+        width: 100%;
+    }
+    #about-jumbotron .text-about h1{
+        font-weight: bold;
+        padding-top: 30px;
+        font-size: 35px;
+    }
+    #about-jumbotron .text-about p{
+        padding: 0px 10px;
+        font-size: 17px;
+    }
+    #about-jumbotron .image-about{
+        width: 100%;
+    }
+    #about-jumbotron .image-about img{
+        width: 450px;
+    }
+    #content-about .title-content p{
+        padding: 5px 10px;
+    }
+
+    #content-about .content{
+        display: block;
+        margin-top: 70px;
+    }
+    #content-about .content .image-content img{
+        width: 450px;
+    }
+    #content-about .content .image-content{
+        width: 100%;
+    }
+    #content-about .content .describe-content{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #content-about .content .describe-content p{
+        padding: 0px 20px;
+        text-indent: 30px;
+        text-align: justify;
+    }
+    .content-visimisi{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-visimisi .visi, .content-visimisi .misi{
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+    .content-visimisi .visi{
+        margin-top: -20px;
+    }
+    #maps{
+        background-image: url('../img/background-about-android.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #maps .container{
+        display: block;
+    }
+    #maps .content-maps img{
+        width: 471px;
+    }
+    #maps .title{
+        padding-top: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #form-contact .container{
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #form-contact .describe-form{
+        margin-top:30px;
+    }
+    #form-contact .form{
+        margin-bottom: 40px;
+    }
+    #form-contact .form .tombol{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer img{
+        width: 110px;
+        height: 80px;
+    }
+    footer .title-footer{
+        font-size: 40px;
+    }
+    footer .menus-contact{
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+}

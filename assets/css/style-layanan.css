@@ -1,0 +1,113 @@
+#layanan-jumbotron{
+    margin-top: 70px;
+    background-image: url("../img/layanan-layanan1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+#layanan-jumbotron .title-layanan-jumbotron{
+    color: white;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.content-menus-layanan{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-menus-layanan .button{
+    text-align: right;
+    margin-top: -10px;
+    font-weight: 550;
+    padding: 0px 20px 0px 0px;
+}
+.content-menus-layanan .button p a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.layanan-digital-marketing,
+.layanan-team-building,
+.layanan-communication,
+.layanan-motivational,
+.layanan-custom-capacity{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 30px 5px 0px 5px;
+    padding: 20px;
+    height: 230px;
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-layanan-team-building,
+.content-layanan-digital-marketing,
+.content-layanan-communication,
+.content-layanan-motivational,
+.content-layanan-custom-capacity{
+    margin-left: 15px;
+}
+
+.layanan-digital-marketing img,
+.layanan-team-building img,
+.layanan-communication img,
+.layanan-motivational img,
+.layanan-custom-capacity img{
+    width: 255px;
+}
+
+#note{
+    background-color: #483D8B;
+    color: white;
+    padding: 20px 0px;
+}
+#note p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    #layanan-jumbotron .title-layanan-jumbotron{
+        width: 90%;
+    }
+    .describe-layanan-jumbotron{
+        margin-top: 20px;
+    }
+    .layanan-digital-marketing,
+    .layanan-team-building,
+    .layanan-communication,
+    .layanan-motivational,
+    .layanan-custom-capacity{
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding: 10px;
+        height: 230px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .layanan-digital-marketing img,
+    .layanan-team-building img,
+    .layanan-communication img,
+    .layanan-motivational img,
+    .layanan-custom-capacity img{
+        width: 210px;
+    }
+    .custom-heading h3{
+        font-size: 20px;
+    }
+    .content-menus-layanan .button{
+        text-align: right;
+        margin-top: -10px;
+        font-weight: 550;
+        padding: 0px 20px 0px 0px;
+    }
+
+}

@@ -1,0 +1,103 @@
+#contact-jumbotron{
+    background-image: url("../img/background-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 70px;
+}
+#contact-jumbotron .title-jumbotron{
+    padding-top: 140px;
+}
+#menus-contact{
+    text-align: center;
+    width: 100%;
+}
+#menus-contact .icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#menus-contact .my-card{
+    width: 22rem;
+}
+#menus-contact .my-card.email{
+    width: 25rem;
+}
+#menus-contact .icon-telp,
+#menus-contact .icon-wa,
+#menus-contact .icon-mail{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #483D8B;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 26px;
+    justify-content: center;
+}
+
+#menus-contact p{
+    font-size: 23px;
+    color: #483D8B;
+    font-weight: 600;
+}
+
+#maps-form .my-maps{
+    border-radius: 20px;
+}
+#maps-form .form{
+    box-shadow: -5px -3px 20px gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+#maps-form .form .tombol{
+    width: 100%;
+    background-color: orange;
+}
+#maps-form .form .tombol:hover{
+    background-color: rgb(199, 130, 3);
+    color: wheat;
+}
+#maps-form .form label{
+    font-weight: bold;
+}
+
+#maps-detail{
+    background-color: rgb(233, 230, 230);
+}
+#maps-detail .show-maps{
+    width: 200px;
+    height: 45px;
+    border: 2px solid orange;
+    text-align: center;
+    line-height: 40px;
+}
+#maps-detail .show-maps:hover{
+    background-color: orange;
+}
+#maps-detail .show-maps:hover a{
+    color: white;
+}
+#maps-detail .show-maps a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 550;
+}
+
+@media (max-width: 768px){
+    #menus-contact .my-card{
+        width: 29rem;
+    }
+
+    #maps-form .form{
+        width: 100%;
+    }
+    #maps-form .my-maps{
+        width: 100%;
+    }
+    #maps-detail .show-maps{
+        width: 100%;
+    }
+}
